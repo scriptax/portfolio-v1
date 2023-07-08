@@ -1,8 +1,6 @@
 .btn {
-  text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 0;
   padding: $base-padding * 0.2 $base-padding $base-padding * 0.3;
   border-radius: $base-border-radius * 0.1;
   background-color: transparent;
@@ -12,15 +10,6 @@
 }
 
 @each $key, $val in $colors {
-  .btn-#{$key} {
-    background-color: $val;
-    &:hover {
-      background-color: lighten($val, 5);
-    }
-    &:active {
-      background-color: mix(#000, $val, 15%);
-    }
-  }
   .btn-outlined-#{$key} {
     color: $val;
     border: $base-border-thinkness solid $val;

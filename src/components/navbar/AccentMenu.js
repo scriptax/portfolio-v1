@@ -9,7 +9,6 @@ const accents = [
   "blue",
   "green",
   "purple",
-  "orange",
 ];
 
 function AccentMenu({ accentPicker }) {

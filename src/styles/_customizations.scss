@@ -1,16 +1,17 @@
 /*Custom scrollbar*/
 ::-webkit-scrollbar {
-  width: 8px;
-}
-::-webkit-scrollbar-track {
-  background-color: transparent;
-  margin: 90px 0px 20px 10px;
-}
-::-webkit-scrollbar-thumb {
-  background-color: lighten($primary, 10%);
-}
-::-webkit-scrollbar-thumb:hover {
-  background-color: lighten($primary, 15%);
+  width: 12px;
+  &-track {
+    background-color: transparent;
+    margin: 90px 0px 20px 10px;
+  }
+  &-thumb {
+    border-right: solid 4px $primary;
+    background-color: lighten($primary, 10%);
+    &:hover {
+      background-color: lighten($primary, 15%);
+    }
+  }
 }
 
 .font-xxl {
@@ -28,51 +29,6 @@
 }
 .footerborder {
   border-top: $base-border-radius * 0.5 dashed $primary;
-}
-
-.logo-div {
-  position: relative;
-}
-.accent-btn {
-  cursor: pointer;
-  border-radius: 2px;
-  padding: $base-padding * 0.5 $base-padding $base-padding;
-  &:hover {
-    background-color: lighten($primary, 0.9);
-  }
-  &:active {
-    background-color: lighten($primary, 0.4);
-  }
-  span {
-    line-height: $base-font-size * 0.5;
-  }
-
-  div {
-    display: inline-block;
-    position: relative;
-    top: 7px;
-    left: 10px;
-    width: 30px;
-    height: 30px;
-    margin-right: 5px;
-    border-radius: 15px;
-  }
-}
-.accent-pallete {
-  position: absolute;
-  border-radius: 2px;
-  overflow: hidden;
-  div {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    cursor: pointer;
-    margin: 0 $base-margin * 0.5;
-    &:hover {
-      opacity: 0.7;
-    }
-  }
 }
 
 .social-icons {

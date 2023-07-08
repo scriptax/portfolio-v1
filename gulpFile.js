@@ -7,15 +7,13 @@ function prgcss() {
       content: ['./src/components/**/*.js'],
       safelist: {
         standard: [
-          /bg-(?!.*-dark)\w+/, 
-          /text-(?!.*-dark-)\w+/,
-          /seperator-border-/,
-          /btn-outlined/,
-          /heading-bullet-/,
-          /inpt-/,
-          /link-/,
-          /list-bullet-/,
-        
+          /-primary-?/,
+          /-secondary-?/,
+          /-error-?/,
+          /-purple-?/,
+          /-info-?/,
+          /-blue-?/,
+          /-green-?/,
         ]
       }
     }))
