@@ -1,0 +1,51 @@
+.skillcard {
+  margin: 0 auto;
+  width: 85%;
+  max-width: 150px;
+  border-radius: 3px;
+  box-shadow: 0 0 0px 0px #aaaaaaa6;;
+  &:hover {
+    box-shadow: 0 0 10px 0px #aaaaaaa6;;
+  }
+  div {
+    border-radius: 2px;
+    width: 100%;
+    padding: $base-padding;
+    cursor: default;
+    box-shadow: 0 0 0px 0px #aaaaaaa6;
+    transition: transform 0.3s, box-shadow 0.3s;
+    img {
+      height: 80px;
+      filter: grayscale(100%);
+      transition: filter 0.3s;
+    }
+    p {
+      opacity: 0;
+      transform: translate(0, -40px);
+      transition: opacity 0.3s, transform 0.3s;
+    }
+
+    &:hover {
+      background-color: mix(white, $primary, 5%);
+      transform: translate(-10px, -15px) scale(1.1);
+      box-shadow: 0 0 10px 0px #aaaaaaa6;
+      img {
+        filter: grayscale(0%);
+      }
+      p {
+        opacity: 1;
+        transform: translate(0, 0);
+      }
+    }
+  }
+  @media (max-width: 720px) {
+    & {
+      width: 60%;
+    }
+  }
+  @media (max-width: 960px) {
+    & {
+      width: 75%;
+    }
+  }
+}

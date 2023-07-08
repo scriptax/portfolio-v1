@@ -1,0 +1,38 @@
+{
+  "landingData": {
+    "name": "Majid Moradi",
+    "role": "Freelance front-end developer",
+    "location": "Iran"
+  },
+  "aboutme": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "works": {
+    "weatherApp": {
+      "name": "Weather App",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "stack": ["html", "css", "js"],
+      "live": "https://scriptax.github.io/weather-app/",
+      "repo": "https://github.com/scriptax/weather-app/"
+    },
+    "noteApp": {
+      "name": "Note App",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "stack": ["html", "css", "js"],
+      "live": "https://scriptax.github.io/noteapp/",
+      "repo": "https://github.com/scriptax/noteapp/"
+    },
+    "stopWatchApp": {
+      "name": "Stopwatch App",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "stack": ["html", "css", "js"],
+      "live": "https://scriptax.github.io/stopwatch/",
+      "repo": "https://github.com/scriptax/stopwatch/"
+    }
+  },
+  "socialLinks": [
+    ["email", "mailto:moradi.online@outlook.com"],
+    ["twitter", "https://twitter.com/ex"],
+    ["codepen", "https://codepen.io/scriptax"],
+    ["github", "https://github.com/scriptax"],
+    ["linkedin", "https://linkedin.com/ex"]
+  ]
+}

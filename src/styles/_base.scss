@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/fonts/oswald.ttf');
+}
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('../assets/fonts/Overpass.ttf');
+}
+
+/* reset styles */
+* {
+  color: inherit;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $primary;
+  overflow-x: hidden;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  border-top: 2px dashed #33464e;
+}
+
+img {
+  max-width: 100%;
+}
