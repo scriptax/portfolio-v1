@@ -49,7 +49,7 @@ function Navbar({ accentPicker }) {
         <div className="container">
           <div className="logo-side">
             <h1 className="site-title mr-1 display-i-b">
-              <a href="# ">Shinobi Designs</a>
+              <a href="# ">Logo</a>
             </h1>
             <AccentMenu accentPicker={accentPicker} />
           </div>

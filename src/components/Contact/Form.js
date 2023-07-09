@@ -114,10 +114,10 @@ function Form() {
           className={`btn btn-outlined-${accent} font-md mb-2 pl-1 pr-1`}
           value={
             state.succeeded
-              ? "Message sent!"
+              ? "Message sent ✔"
               : state.submitting
               ? "Sending..."
-              : "Send Message"
+              : "Send Message >>"
           }
         />
       </form>

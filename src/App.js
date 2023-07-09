@@ -1,5 +1,5 @@
 import { useState, createContext } from "react";
-import personData from "./data/PersonData.json";
+import personData from "./data/personData.json";
 import Navbar from "./components/navbar/Navbar";
 import Landing from "./components/landing/Landing";
 import AboutSection from "./components/AboutSection/AboutSection";
@@ -21,8 +21,8 @@ function App() {
     <div className="app">
       <AccentContext.Provider value={accent}>
         <Navbar accentPicker={accentPicker} />
-        <Landing content={personData.landingData} />
-        <AboutSection content={personData.aboutme} />
+        <Landing />
+        <AboutSection />
         <SkillsSection content={personData.aboutme} />
         <WorksSection content={personData.aboutme} />
         <Contact />

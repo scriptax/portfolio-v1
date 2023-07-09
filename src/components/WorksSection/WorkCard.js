@@ -1,13 +1,15 @@
 import { useContext } from "react";
 import { AccentContext } from "../../App";
+import * as icons from "./../../utils/icons";
 
-function WorkCard({ data }) {
+function WorkCard({ data, img }) {
   const accent = useContext(AccentContext);
+  console.log(data)
   return (
     <div className={`work-card m-1 mt-2 font-md bg-${accent}`}>
       <div className="row">
         <div className="col-12-xs col-6-md p-1">
-          <img src={data.pic} alt={data.name} draggable="false" />
+          <img src={img} alt={data.name} draggable="false" />
         </div>
         <div className="col-12-xs col-6-md p-1">
           <div className="mb-1">
@@ -17,12 +19,12 @@ function WorkCard({ data }) {
           <hr />
           <div className="display-f justify-space-between align-center mt-1">
             <div>
-              {data.stack.map((techLogo, index) => (
+              {data.stack.map((tech, index) => (
                 <img
                   className="mr-1"
                   height="25px"
                   key={index}
-                  src={techLogo}
+                  src={icons[tech]}
                   alt=""
                 />
               ))}
@@ -30,14 +32,14 @@ function WorkCard({ data }) {
             <div>
               <a
                 className={`link link-${accent} mr-1 fontfam-temp font-sm`}
-                href={data.repoLink}
+                href={data.repo}
                 target="blank"
               >
                 Code
               </a>
               <a
                 className={`link link-${accent} fontfam-temp font-sm`}
-                href={data.liveLink}
+                href={data.live}
                 target="blank"
               >
                 Live

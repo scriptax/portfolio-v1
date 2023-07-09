@@ -21,7 +21,7 @@ function AccentMenu({ accentPicker }) {
   return (
     <>
       <div
-        className="accent-btn font-md p-1 display-i-b"
+        className="accent-btn font-md display-i-b"
         onClick={openMenuHandler}
       >
         <span>Theme</span>
