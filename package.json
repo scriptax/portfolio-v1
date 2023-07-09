@@ -20,6 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "gulp": "npx gulp",
     "prettier": "npx prettier --write ./src/**/*.js"
   },
   "eslintConfig": {
@@ -42,7 +43,9 @@
   },
   "devDependencies": {
     "gulp-purgecss": "^5.0.0",
+    "gulp-sass": "^5.1.0",
     "prettier": "3.0.0",
+    "sass": "^1.63.6",
     "vinyl-sourcemaps-apply": "^0.2.1"
   }
 }

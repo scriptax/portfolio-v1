@@ -1,8 +1,10 @@
-const { series, src, dest } = require('gulp');
+const { series, src, dest, watch } = require('gulp');
 const purgecss = require('gulp-purgecss');
+const sass = require('gulp-sass')(require('sass'))
 
-function prgcss() {
-  return src('./src/styles/index.css')
+function buildStyles() {
+  return src('./src/styles/index.scss')
+    .pipe(sass({ outputStyle: 'compressed' }))
     .pipe(purgecss({
       content: ['./src/components/**/*.js'],
       safelist: {
@@ -17,7 +19,11 @@ function prgcss() {
         ]
       }
     }))
-    .pipe(dest('./src/styles/'))
+    .pipe(dest('./src/styles/build'))
 }
 
-exports.default = series(prgcss)
+function watchTask() {
+  watch(['./src/styles/**/*.scss', './src/components/**/*.js'], buildStyles)
+}
+
+exports.default = series(buildStyles, watchTask)
