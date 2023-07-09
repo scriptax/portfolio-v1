@@ -33,7 +33,9 @@ a {
 button {
   border: 0;
 }
-
+p {
+  white-space: pre-wrap;
+}
 hr {
   border: 0;
   border-top: 2px dashed #33464e;
