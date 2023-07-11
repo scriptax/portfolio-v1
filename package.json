@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "gulp": "npx gulp",
-    "prettier": "npx prettier --write ./src/**/*.js"
+    "prettier": "npx prettier --write ./**/*.js"
   },
   "eslintConfig": {
     "extends": [
