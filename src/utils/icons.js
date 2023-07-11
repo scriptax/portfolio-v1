@@ -8,4 +8,14 @@ import tailwind from "./../assets/icons/tailwind.svg";
 import express from "./../assets/icons/express.svg";
 import nodejs from "./../assets/icons/nodejs.svg";
 
-export { html, css, sass, javascript, typescript, react, tailwind, nodejs, express };
+export {
+  html,
+  css,
+  sass,
+  javascript,
+  typescript,
+  react,
+  tailwind,
+  nodejs,
+  express,
+};

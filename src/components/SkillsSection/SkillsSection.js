@@ -9,7 +9,9 @@ function SkillsSection() {
     <>
       <section id="Skills" className="container text-primary-light-9 mb-4 pt-5">
         <Heading name="Skill" title="My Toolbox" />
-        <p className="fontfam-temp font-md fontwt-200">{personData.skillsText}</p>
+        <p className="fontfam-temp font-md fontwt-200">
+          {personData.skillsText}
+        </p>
         <div className="row justify-c textal-c mt-3">
           <div className="col-12-xs col-8-md textal-l">
             <SkillElem />

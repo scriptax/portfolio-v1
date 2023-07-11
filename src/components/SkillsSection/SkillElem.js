@@ -21,7 +21,9 @@ const Elem = ({ skill }) => {
 function SkillElem() {
   return (
     <>
-      <h1 className="mb-2 ml-1 display-i-b">{"</>"} Development Skills</h1>
+      <h1 className="mb-2 ml-1 display-i-b fontfam-cont">
+        {"</>"} Development Skills
+      </h1>
       <div className="row justify-c textal-c gap-1">
         {personData.skills.map((skill, index) => (
           <Elem key={index} skill={skill} />

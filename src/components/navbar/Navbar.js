@@ -3,6 +3,7 @@ import { AccentContext } from "../../App";
 import MenuIcon from "./MenuIcon";
 import Sidebar from "./Sidebar";
 import AccentMenu from "./AccentMenu";
+import Logo from "./Logo";
 
 const Navlink = ({ text, sidebarClose }) => {
   const accent = useContext(AccentContext);
@@ -47,15 +48,19 @@ function Navbar({ accentPicker }) {
     <>
       <nav className="navbar-primary justify-between text-white pt-1 pb-1">
         <div className="container">
-          <div className="logo-side">
+          <div className="row align-center">
             <h1 className="site-title mr-1 display-i-b">
-              <a href="# ">Logo</a>
+              <a href="# " className="fontfam-temp">
+                <Logo />
+              </a>
             </h1>
             <AccentMenu accentPicker={accentPicker} />
           </div>
           <ul className="display-f font-md">
             {linksFormatetd}
-            <button className={`btn btn-outlined-${accent} font-md ml-1`}>
+            <button
+              className={`btn btn-outlined-${accent} font-md ml-1 fontfam-cont`}
+            >
               Resume
             </button>
           </ul>

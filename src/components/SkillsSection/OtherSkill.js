@@ -18,7 +18,7 @@ const Elem = ({ skill }) => {
 function OtherSkills() {
   return (
     <>
-      <h1 className="ml-1 display-i-b">🛠 Tools & Knowledge</h1>
+      <h1 className="ml-1 display-i-b fontfam-cont">🛠 Tools & Knowledge</h1>
       <ul className="mt-3">
         {personData.otherSkills.map((skill, index) => (
           <Elem key={index} skill={skill} />

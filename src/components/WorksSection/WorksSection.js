@@ -12,7 +12,11 @@ function WorksSection() {
         <Heading name="Skill" title="Some Things I've Built" />
         <p className="fontfam-temp font-md fontwt-200"></p>
         {Object.keys(personData.works).map((work, index) => (
-          <WorkCard key={index} data={personData.works[work]} img={pics[work]} />
+          <WorkCard
+            key={index}
+            data={personData.works[work]}
+            img={pics[work]}
+          />
         ))}
       </section>
       <Border />

@@ -27,7 +27,9 @@ function Sidebar({ children, handler }) {
               >
                 {children}
                 <li>
-                  <button className={`btn btn-outlined-${accent} font-lg mt-2`}>
+                  <button
+                    className={`btn btn-outlined-${accent} font-lg mt-2 fontfam-cont`}
+                  >
                     Resume
                   </button>
                 </li>

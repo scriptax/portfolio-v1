@@ -4,7 +4,6 @@ import * as icons from "./../../utils/icons";
 
 function WorkCard({ data, img }) {
   const accent = useContext(AccentContext);
-  console.log(data)
   return (
     <div className={`work-card m-1 mt-2 font-md bg-${accent}`}>
       <div className="row">
@@ -13,7 +12,7 @@ function WorkCard({ data, img }) {
         </div>
         <div className="col-12-xs col-6-md p-1">
           <div className="mb-1">
-            <h4>{data.name}</h4>
+            <h4 className="fontfam-cont">{data.name}</h4>
             <p className="fontfam-temp font-sm">{data.description}</p>
           </div>
           <hr />

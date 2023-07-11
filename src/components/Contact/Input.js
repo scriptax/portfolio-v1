@@ -28,7 +28,11 @@ function Input(props) {
           />
           <span></span>
           <span></span>
-          <span className={`${movePlaceHolder && "input-filled"} font-md`}>
+          <span
+            className={`${
+              movePlaceHolder && "input-filled"
+            } font-md fontfam-cont`}
+          >
             {placeholder}
           </span>
         </label>
@@ -46,7 +50,11 @@ function Input(props) {
           />
           <span></span>
           <span></span>
-          <span className={`${movePlaceHolder && "input-filled"} font-md`}>
+          <span
+            className={`${
+              movePlaceHolder && "input-filled"
+            } font-md fontfam-cont`}
+          >
             {placeholder}
           </span>
         </label>

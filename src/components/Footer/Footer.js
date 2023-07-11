@@ -18,7 +18,9 @@ const icons = {
 function Footer({ content }) {
   const accent = useContext(AccentContext);
   return (
-    <footer className={`bg-${accent} footerborder pt-3 pb-3 textal-c`}>
+    <footer
+      className={`bg-${accent} footerborder pt-3 pb-3 textal-c fontfam-cont`}
+    >
       <a
         className="link link-black font-md mb-1"
         href="mailto:moradi.online@outlook.com"

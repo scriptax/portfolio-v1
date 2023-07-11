@@ -111,7 +111,7 @@ function Form() {
         />
         <input
           type="submit"
-          className={`btn btn-outlined-${accent} font-md mb-2 pl-1 pr-1`}
+          className={`btn btn-outlined-${accent} font-md mb-2 pl-1 pr-1 fontfam-cont`}
           value={
             state.succeeded
               ? "Message sent ✔"

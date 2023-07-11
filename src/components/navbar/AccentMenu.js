@@ -2,14 +2,7 @@ import { useContext, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { AccentContext } from "../../App";
 
-const accents = [
-  "secondary",
-  "info",
-  "error",
-  "blue",
-  "green",
-  "purple",
-];
+const accents = ["secondary", "info", "error", "blue", "green", "purple"];
 
 function AccentMenu({ accentPicker }) {
   const [openMenu, setOpenMenu] = useState(false);
@@ -20,18 +13,15 @@ function AccentMenu({ accentPicker }) {
   };
   return (
     <>
-      <div
-        className="accent-btn font-md display-i-b"
-        onClick={openMenuHandler}
-      >
-        <span>Theme</span>
+      <div className="accent-btn font-md display-i-b" onClick={openMenuHandler}>
+        <span className="fontfam-cont">Theme</span>
         <div className={`bg-${accent}`}></div>
       </div>
       <AnimatePresence>
         {openMenu && (
           <motion.div
             className="accent-pallete bg-primary-light-1 p-1"
-            initial={{ x: "-100vw" }}
+            initial={{ x: "-100vw", y: "70px" }}
             animate={{ x: "0px" }}
             exit={{ x: "-100vw" }}
             transition={{ type: "tween", duration: 0.2 }}

@@ -11,16 +11,18 @@ function Contact() {
   return (
     <section id="Contact" className="container text-primary-light-9 mb-4 pt-5">
       <Heading title="Get In Touch" />
-      <p className="font-md fontfam-temp">
-        {personData.contactText}
-      </p>
+      <p className="font-md fontfam-temp">{personData.contactText}</p>
       <button
-        className={`btn btn-outlined-${accent} font-md pr-2 pl-2 mt-2`}
+        className={`btn btn-outlined-${accent} font-md pr-2 pl-2 mt-2 fontfam-cont`}
         onClick={() => {
           setForm((prev) => !prev);
         }}
       >
-        {form ? <a href="#Form">Cancel</a> : <a href="#Contact">Get in touch ✉</a>}
+        {form ? (
+          <a href="#Form">Cancel</a>
+        ) : (
+          <a href="#Contact">Get in touch ✉</a>
+        )}
       </button>
       <AnimatePresence>{form && <Form />}</AnimatePresence>
     </section>
