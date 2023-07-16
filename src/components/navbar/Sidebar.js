@@ -19,12 +19,7 @@ function Sidebar({ children, handler }) {
               transition={{ type: "tween" }}
               exit={{ x: "100vw" }}
             >
-              <motion.ul
-                initial={{ x: "100vw" }}
-                animate={{ x: "0vw" }}
-                transition={{ type: "spring", bounce: 0.5 }}
-                className="font-lg"
-              >
+              <ul className="font-lg">
                 {children}
                 <li>
                   <button
@@ -33,7 +28,7 @@ function Sidebar({ children, handler }) {
                     Resume
                   </button>
                 </li>
-              </motion.ul>
+              </ul>
             </motion.aside>
           </motion.div>
         )}
