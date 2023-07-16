@@ -1,5 +1,5 @@
 import { useState, createContext } from "react";
-import personData from "./data/personData.json";
+import personData from "./data/person-data.json";
 import Navbar from "./components/navbar/Navbar";
 import Landing from "./components/landing/Landing";
 import AboutSection from "./components/AboutSection/AboutSection";

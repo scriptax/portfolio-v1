@@ -2,7 +2,7 @@ import Heading from "../Heading/Heading";
 import Border from "../Border/Border";
 import SkillElem from "./SkillElem";
 import OtherSkills from "./OtherSkill";
-import personData from "./../../data/personData.json";
+import personData from "./../../data/person-data.json";
 
 function SkillsSection() {
   return (

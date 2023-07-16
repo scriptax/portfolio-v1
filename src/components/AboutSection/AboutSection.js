@@ -1,6 +1,6 @@
 import Heading from "../Heading/Heading";
 import Border from "../Border/Border";
-import personData from "./../../data/personData.json";
+import personData from "./../../data/person-data.json";
 
 const Section = () => {
   return (

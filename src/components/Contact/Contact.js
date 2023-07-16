@@ -3,7 +3,7 @@ import { AnimatePresence } from "framer-motion";
 import { AccentContext } from "../../App";
 import Heading from "../Heading/Heading";
 import Form from "./Form";
-import personData from "./../../data/personData.json";
+import personData from "./../../data/person-data.json";
 
 function Contact() {
   const accent = useContext(AccentContext);

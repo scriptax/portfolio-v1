@@ -2,7 +2,7 @@ import Heading from "../Heading/Heading";
 import React from "react";
 import WorkCard from "./WorkCard";
 import Border from "../Border/Border";
-import personData from "./../../data/personData.json";
+import personData from "./../../data/person-data.json";
 import * as pics from "./../../utils/pics";
 
 function WorksSection() {

@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { AccentContext } from "../../App";
-import personData from "./../../data/personData.json";
+import personData from "./../../data/person-data.json";
 import * as icons from "./../../utils/icons";
 
 const Elem = ({ skill }) => {

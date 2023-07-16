@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { AccentContext } from "../../App";
-import personData from "./../../data/personData.json";
+import personData from "./../../data/person-data.json";
 
 const Elem = ({ skill }) => {
   const accent = useContext(AccentContext);
