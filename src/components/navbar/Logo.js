@@ -30,7 +30,6 @@ const Logo = () => {
         style={{ zIndex: "2" }}
         initial={{ x: "0px", y: "0px" }}
         whileHover={{ x: "5px", y: "-4px" }}
-        transition={{ type: "tween" }}
       >
         M
       </motion.text>

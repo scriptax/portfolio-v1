@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { AccentContext } from "../../App";
-import personImg from "../../assets/images/user.jpg";
+import personImg from "../../assets/images/user.png";
 import personData from "./../../data/personData.json";
 
 const Landing = () => {
