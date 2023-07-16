@@ -11,7 +11,7 @@ const Landing = () => {
         <div className="col-11-xs col-5-md p-2 text-primary">
           <p className="fontfam-temp font-md">Hi👋, My name is</p>
           <h1 className="font-name fontfam-cont mt-1">{personData.name}</h1>
-          <p className="font-lg fontfam-cont mt-1">
+          <p className="font-md fontfam-temp mt-1">
             {personData.role} in {personData.location}
           </p>
           <a
