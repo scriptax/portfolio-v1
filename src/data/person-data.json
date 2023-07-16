@@ -10,7 +10,7 @@
     "translateApp": {
       "name": "Translate App",
       "description": "I built this translate app to test my skills with React. This app lets you translate between over 100 languages. You can type in to translate any text, and see or hear the translation in your desired language. The user can also switch between languages, paste or copy text with a single tap. In addition, you can access your previous translation history. This app is accurate, user-friendly, and featues a clean design. Make sure to give it a try!",
-      "stack": ["html", "typescript", "react", "tailwind"],
+      "stack": ["typescript", "react", "tailwind"],
       "live": "https://translate-app-scriptax.vercel.app/",
       "repo": "https://github.com/scriptax/translate-app/"
     },
@@ -18,7 +18,7 @@
       "name": "Weather App",
       "description": "I built this weather app with an eye on simplicity to avoid using the over-engineered weather websites😅. This simple and elegant web app, gives you the current weather and forecast for any location in the world. You can see the temperature, humidity, wind speed, pressure, precipitation, and other details and get an hourly or a 15-day forecast as well. You can also switch between Celsius and Fahrenheit units too.",
       "stack": ["html", "css", "javascript"],
-      "live": "https://scriptax.github.io/weather-app/",
+      "live": "https://weather-app-ld08.onrender.com/",
       "repo": "https://github.com/scriptax/weather-app/"
     },
     "noteApp": {
