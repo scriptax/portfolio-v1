@@ -8,10 +8,8 @@ function Sidebar({ children, handler }) {
     <>
       <AnimatePresence>
         {handler && (
-          <motion.div
+          <div
             className="sidebar-overlay"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
           >
             <motion.aside
               initial={{ x: "100vw" }}
@@ -30,7 +28,7 @@ function Sidebar({ children, handler }) {
                 </li>
               </ul>
             </motion.aside>
-          </motion.div>
+          </div>
         )}
       </AnimatePresence>
     </>
