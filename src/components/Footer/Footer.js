@@ -1,7 +1,7 @@
 import { AccentContext } from "../../App";
 import { useContext } from "react";
 import email from "./../../assets/icons/email.svg";
-import twitter from "./../../assets/icons/twitter.svg";
+import x from "./../../assets/icons/x.svg";
 import linkedin from "./../../assets/icons/linkedin.svg";
 import codepen from "./../../assets/icons/codepen.svg";
 import github from "./../../assets/icons/github.svg";
@@ -9,7 +9,7 @@ import upIcon from "./../../assets/icons/up.svg";
 
 const icons = {
   email: email,
-  twitter: twitter,
+  x: x,
   linkedin: linkedin,
   codepen: codepen,
   github: github,
